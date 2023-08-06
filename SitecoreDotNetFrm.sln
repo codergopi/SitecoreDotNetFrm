@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{0F16EB51-BEDE-4ABE-B35D-10FA5AB483B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{89AB3AAE-779B-4211-B98F-F7346E10EAA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{FBAF05C9-4E53-4BE3-8B62-03B6B827D32B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{8009FD30-8250-41F7-9CA6-CC0A7263D7A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Frm.Website", "Project\SitecoreFrm\Sitecore.Frm.Website\code\Sitecore.Frm.Website.csproj", "{87F41A1D-B983-4B74-A842-B4603A83393C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87F41A1D-B983-4B74-A842-B4603A83393C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F41A1D-B983-4B74-A842-B4603A83393C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F41A1D-B983-4B74-A842-B4603A83393C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F41A1D-B983-4B74-A842-B4603A83393C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8009FD30-8250-41F7-9CA6-CC0A7263D7A4} = {89AB3AAE-779B-4211-B98F-F7346E10EAA3}
+		{87F41A1D-B983-4B74-A842-B4603A83393C} = {8009FD30-8250-41F7-9CA6-CC0A7263D7A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E63F670F-8D98-4A48-A7CE-30E27850BBFD}
+	EndGlobalSection
+EndGlobal
