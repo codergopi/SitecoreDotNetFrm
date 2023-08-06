@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{FBAF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{8009FD30-8250-41F7-9CA6-CC0A7263D7A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Frm.Website", "Project\SitecoreFrm\Sitecore.Frm.Website\code\Sitecore.Frm.Website.csproj", "{87F41A1D-B983-4B74-A842-B4603A83393C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Frm.Website", "src\Project\SitecoreFrm\Sitecore.Frm.Website\code\Sitecore.Frm.Website.csproj", "{87F41A1D-B983-4B74-A842-B4603A83393C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
