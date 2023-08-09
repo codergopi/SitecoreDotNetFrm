@@ -4,3 +4,4 @@
 
 /.vs/SitecoreDotNetFrm
 /packages
+/node_modules/.bin

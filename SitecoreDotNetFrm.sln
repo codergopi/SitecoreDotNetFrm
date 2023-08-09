@@ -11,7 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{FBAF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{8009FD30-8250-41F7-9CA6-CC0A7263D7A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Frm.Website", "src\Project\SitecoreFrm\Sitecore.Frm.Website\code\Sitecore.Frm.Website.csproj", "{87F41A1D-B983-4B74-A842-B4603A83393C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frm.Feature.ContentComp", "src\Feature\Frm.Feature.ContentComp\code\Frm.Feature.ContentComp.csproj", "{7B014346-99D6-40D3-8557-BD551960CE75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContentComp", "ContentComp", "{716F0EE0-7BA0-4F8B-AB23-CB13C9CCB0B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{F7112E77-2625-4D40-B288-2B0DFD226F87}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		LICENSE = LICENSE
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frm.Sitecore.Website", "src\Project\SitecoreFrm\Frm.Sitecore.Website\code\Frm.Sitecore.Website.csproj", "{87F41A1D-B983-4B74-A842-B4603A83393C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +31,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B014346-99D6-40D3-8557-BD551960CE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B014346-99D6-40D3-8557-BD551960CE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B014346-99D6-40D3-8557-BD551960CE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B014346-99D6-40D3-8557-BD551960CE75}.Release|Any CPU.Build.0 = Release|Any CPU
 		{87F41A1D-B983-4B74-A842-B4603A83393C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{87F41A1D-B983-4B74-A842-B4603A83393C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87F41A1D-B983-4B74-A842-B4603A83393C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,6 +45,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8009FD30-8250-41F7-9CA6-CC0A7263D7A4} = {89AB3AAE-779B-4211-B98F-F7346E10EAA3}
+		{7B014346-99D6-40D3-8557-BD551960CE75} = {716F0EE0-7BA0-4F8B-AB23-CB13C9CCB0B4}
+		{716F0EE0-7BA0-4F8B-AB23-CB13C9CCB0B4} = {FBAF05C9-4E53-4BE3-8B62-03B6B827D32B}
 		{87F41A1D-B983-4B74-A842-B4603A83393C} = {8009FD30-8250-41F7-9CA6-CC0A7263D7A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
